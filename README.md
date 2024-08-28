@@ -14,7 +14,7 @@
 
 ### Technical Explanation:
 
-#### Model Configuration -- [config.py](https://github.com/harshp30/LlamaFinetuning/blob/main/config.py)
+#### Model Configuration -- [config.py](https://github.com/harshp30/LlamaFinetuning/blob/main/src/config.py)
 
 This script defines the configuration parameters for the model, training process, and QLoRA setup.
 
@@ -38,7 +38,7 @@ This script defines the configuration parameters for the model, training process
 
 ---
 
-#### Data Preparation -- [data_preparation.py](https://github.com/harshp30/LlamaFinetuning/blob/main/data_preparation.py)
+#### Data Preparation -- [data_preparation.py](https://github.com/harshp30/LlamaFinetuning/blob/main/src/data_preparation.py)
 
 Handles loading and preparing the dataset for fine-tuning.
 
@@ -50,7 +50,7 @@ Handles loading and preparing the dataset for fine-tuning.
 
 ---
 
-#### Model Setup -- [model_setup.py](https://github.com/harshp30/LlamaFinetuning/blob/main/model_setup.py)
+#### Model Setup -- [model_setup.py](https://github.com/harshp30/LlamaFinetuning/blob/main/src/model_setup.py)
 
 Manages the initialization of the model, tokenizer, and LoRA configuration.
 
@@ -70,7 +70,7 @@ Manages the initialization of the model, tokenizer, and LoRA configuration.
 
 ---
 
-#### Training Process -- [training.py](https://github.com/harshp30/LlamaFinetuning/blob/main/training.py)
+#### Training Process -- [training.py](https://github.com/harshp30/LlamaFinetuning/blob/main/src/training.py)
 
 Handles the fine-tuning process using the SFTTrainer from the TRL library.
 
@@ -86,7 +86,7 @@ Handles the fine-tuning process using the SFTTrainer from the TRL library.
 
 ---
 
-#### Inference -- [inference.py](https://github.com/harshp30/LlamaFinetuning/blob/main/inference.py)
+#### Inference -- [inference.py](https://github.com/harshp30/LlamaFinetuning/blob/main/src/inference.py)
 
 Provides functionality to run inference on the fine-tuned model.
 
@@ -99,7 +99,7 @@ Provides functionality to run inference on the fine-tuned model.
 
 ---
 
-#### Main Execution -- [main.py](https://github.com/harshp30/LlamaFinetuning/blob/main/main.py)
+#### Main Execution -- [main.py](https://github.com/harshp30/LlamaFinetuning/blob/main/src/main.py)
 
 Orchestrates the entire fine-tuning process from data loading to inference.
 
@@ -149,11 +149,10 @@ Orchestrates the entire fine-tuning process from data loading to inference.
 ---
 
 ### Citations:
-
 ```
-Finetuning Tutorial: https://youtu.be/iOdFUJiB0Zc?si=Q20zSl_NH3eoPE4C
-Llama 2: https://ai.meta.com/llama/
-QLoRA: https://arxiv.org/abs/2305.14314
-PEFT: https://github.com/huggingface/peft
+Finetuning Tutorial: https://youtu.be/iOdFUJiB0Zc?si=Q20zSl_NH3eoPE4C 
+Llama 2: https://ai.meta.com/llama/ 
+QLoRA: https://arxiv.org/abs/2305.14314 
+PEFT: https://github.com/huggingface/peft 
 TRL: https://github.com/lvwerra/trl
 ```

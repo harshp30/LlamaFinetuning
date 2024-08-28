@@ -22,8 +22,8 @@ num_train_epochs = 10
 fp16 = False
 bf16 = False
 per_device_train_batch_size = 1
-per_device_eval_batch_size = 1  # Reduced from 4
-gradient_accumulation_steps = 8  # Increased from 4
+per_device_eval_batch_size = 1
+gradient_accumulation_steps = 8 
 gradient_checkpointing = True
 max_grad_norm = 0.3
 learning_rate = 2e-4
@@ -37,7 +37,7 @@ save_steps = 0
 logging_steps = 25
 
 # SFT parameters
-max_seq_length = 256  # Reduced from 512
+max_seq_length = 256
 packing = False
 
 # Device configuration

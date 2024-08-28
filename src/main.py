@@ -3,7 +3,7 @@ import torch
 import config
 from data_preperation import load_and_prepare_dataset
 from model_setup import setup_model_and_tokenizer
-from training import train_model
+from src.training import train_model
 from inference import run_inference
 
 def main():
